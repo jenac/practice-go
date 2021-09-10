@@ -3,6 +3,8 @@ module example.com/ch07
 go 1.17
 
 require (
+	github.com/PuerkitoBio/goquery v1.7.1 // indirect
+	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/chromedp/cdproto v0.0.0-20210829223513-dac050cc1a27 // indirect
 	github.com/chromedp/chromedp v0.7.4 // indirect
