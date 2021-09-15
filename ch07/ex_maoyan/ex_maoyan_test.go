@@ -8,6 +8,6 @@ import (
 
 func TestMaoYan(t *testing.T) {
 	MaoYan(
-		fmt.Sprintf("https://box.maoyan.com/promovie/api/box/￼ second.json?beginDate=%s", 
+		fmt.Sprintf("https://box.maoyan.com/promovie/api/box/second.json?beginDate=%s", 
 		time.Now().Format("20210102")))
 }
